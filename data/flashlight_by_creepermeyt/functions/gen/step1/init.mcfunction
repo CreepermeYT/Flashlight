@@ -14,9 +14,11 @@ execute if score -w flbc matches 50..54 run function flashlight_by_creepermeyt:g
 execute if score -w flbc matches 55..59 run function flashlight_by_creepermeyt:gen/step2/step255
 execute if score -w flbc matches 60 run function flashlight_by_creepermeyt:gen/step2/step26
 
-execute if score -pw flbc matches 0..2 run function flashlight_by_creepermeyt:gen/step3/step30
-execute if score -pw flbc matches 3..6 run function flashlight_by_creepermeyt:gen/step3/step303
-execute if score -pw flbc matches 7..9 run function flashlight_by_creepermeyt:gen/step3/step307
+execute if score -pw flbc matches 0 run function flashlight_by_creepermeyt:gen/step3/step30
+execute if score -pw flbc matches 1..2 run function flashlight_by_creepermeyt:gen/step3/step302
+execute if score -pw flbc matches 3..4 run function flashlight_by_creepermeyt:gen/step3/step304
+execute if score -pw flbc matches 5..6 run function flashlight_by_creepermeyt:gen/step3/step306
+execute if score -pw flbc matches 7..9 run function flashlight_by_creepermeyt:gen/step3/step308
 execute if score -pw flbc matches 10..19 run function flashlight_by_creepermeyt:gen/step3/step31
 execute if score -pw flbc matches 20..29 run function flashlight_by_creepermeyt:gen/step3/step32
 execute if score -pw flbc matches 30..39 run function flashlight_by_creepermeyt:gen/step3/step33
