@@ -1,0 +1,2 @@
+scoreboard players add -dist flbyc 1
+execute if score -dist flbyc matches ..101 positioned ^ ^ ^1 if function flashlights_bycreepermeyt:ispositionsafe run function flashlights_bycreepermeyt:auto_focused/actual_get_dist

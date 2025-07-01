@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spyglass"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "flashlights_bycreepermeyt:flashlight_recipe",
+      "flashlights_bycreepermeyt:flashlight_recipe1.21.4"
+    ]
+  }
+}

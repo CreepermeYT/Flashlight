@@ -1,0 +1,1 @@
+give @s minecraft:spyglass[minecraft:item_name="Flashlight",minecraft:enchantment_glint_override=true,minecraft:max_damage=300,minecraft:damage=0,custom_model_data={strings:['flashlight_off']}]

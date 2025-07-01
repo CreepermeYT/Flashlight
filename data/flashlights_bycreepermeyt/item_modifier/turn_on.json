@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_custom_model_data",
+  "strings": {
+    "values": [
+      "flashlight_on"
+    ],
+    "mode": "replace_all"
+  }
+}

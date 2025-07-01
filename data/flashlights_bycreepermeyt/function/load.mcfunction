@@ -1,0 +1,3 @@
+scoreboard objectives remove flbyc
+scoreboard objectives add flbyc minecraft.used:minecraft.spyglass
+function dynamic_lights_by_creepermeyt:internal/load
