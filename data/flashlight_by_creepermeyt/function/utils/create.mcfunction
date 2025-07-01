@@ -1,0 +1,32 @@
+function flashlight_by_creepermeyt:utils/delete
+execute if score @s flbc matches 15 run fill ~ ~ ~ ~ ~ ~ light[level=15] replace air
+execute if score @s flbc matches 15 run fill ~ ~ ~ ~ ~ ~ light[level=15,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 14 run fill ~ ~ ~ ~ ~ ~ light[level=14] replace air
+execute if score @s flbc matches 14 run fill ~ ~ ~ ~ ~ ~ light[level=14,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 13 run fill ~ ~ ~ ~ ~ ~ light[level=13] replace air
+execute if score @s flbc matches 13 run fill ~ ~ ~ ~ ~ ~ light[level=13,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 12 run fill ~ ~ ~ ~ ~ ~ light[level=12] replace air
+execute if score @s flbc matches 12 run fill ~ ~ ~ ~ ~ ~ light[level=12,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 11 run fill ~ ~ ~ ~ ~ ~ light[level=11] replace air
+execute if score @s flbc matches 11 run fill ~ ~ ~ ~ ~ ~ light[level=11,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 10 run fill ~ ~ ~ ~ ~ ~ light[level=10] replace air
+execute if score @s flbc matches 10 run fill ~ ~ ~ ~ ~ ~ light[level=10,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 9 run fill ~ ~ ~ ~ ~ ~ light[level=9] replace air
+execute if score @s flbc matches 9 run fill ~ ~ ~ ~ ~ ~ light[level=9,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 8 run fill ~ ~ ~ ~ ~ ~ light[level=8] replace air
+execute if score @s flbc matches 8 run fill ~ ~ ~ ~ ~ ~ light[level=8,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 7 run fill ~ ~ ~ ~ ~ ~ light[level=7] replace air
+execute if score @s flbc matches 7 run fill ~ ~ ~ ~ ~ ~ light[level=7,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 6 run fill ~ ~ ~ ~ ~ ~ light[level=6] replace air
+execute if score @s flbc matches 6 run fill ~ ~ ~ ~ ~ ~ light[level=6,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 5 run fill ~ ~ ~ ~ ~ ~ light[level=5] replace air
+execute if score @s flbc matches 5 run fill ~ ~ ~ ~ ~ ~ light[level=5,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 4 run fill ~ ~ ~ ~ ~ ~ light[level=4] replace air
+execute if score @s flbc matches 4 run fill ~ ~ ~ ~ ~ ~ light[level=4,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 3 run fill ~ ~ ~ ~ ~ ~ light[level=3] replace air
+execute if score @s flbc matches 3 run fill ~ ~ ~ ~ ~ ~ light[level=3,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 2 run fill ~ ~ ~ ~ ~ ~ light[level=2] replace air
+execute if score @s flbc matches 2 run fill ~ ~ ~ ~ ~ ~ light[level=2,waterlogged=true] replace water[level=0]
+execute if score @s flbc matches 1 run fill ~ ~ ~ ~ ~ ~ light[level=1] replace air
+execute if score @s flbc matches 1 run fill ~ ~ ~ ~ ~ ~ light[level=1,waterlogged=true] replace water[level=0]
+tag @s remove flbc.update
