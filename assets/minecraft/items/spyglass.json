@@ -1,0 +1,77 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "flashlight_on",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "flashlights_bycreepermeyt:item/flashlight_on"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "flashlights_bycreepermeyt:item/flashlight_on_in_hand"
+          }
+        }
+      },
+      {
+        "when": "flashlight_off",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "flashlights_bycreepermeyt:item/flashlight_off"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "flashlights_bycreepermeyt:item/flashlight_off_in_hand"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "gui",
+            "ground",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spyglass"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spyglass_in_hand"
+      }
+    }
+  }
+}
