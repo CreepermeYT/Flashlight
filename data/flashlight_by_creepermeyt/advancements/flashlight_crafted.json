@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "flashlight_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "flashlight_by_creepermeyt:flashlight_recipe",
+        "ingredients": []
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flashlight_crafted"
+    ]
+  ],
+  "rewards": {
+    "function": "flashlight_by_creepermeyt:item/cgflashlight"
+  }
+}

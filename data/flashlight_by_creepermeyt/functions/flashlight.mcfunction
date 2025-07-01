@@ -1,4 +1,5 @@
 execute anchored eyes positioned ~ ~1 ~ run function flashlight_by_creepermeyt:utils/get_dist
+function flashlight_by_creepermeyt:item/damage
 
 scoreboard players set -min flbc 8
 scoreboard players set -max flbc 15

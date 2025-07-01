@@ -3,10 +3,12 @@
   "entity": "this",
   "predicate": {
     "equipment": {
-      "offhand": {
+      "mainhand": {
         "items": [
           "minecraft:spyglass"
-        ]
+        ],
+        "enchantments": [],
+        "nbt": "{Enchantments:[{}],CustomModelData:1}"
       }
     }
   }
