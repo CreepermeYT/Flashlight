@@ -1,7 +1,16 @@
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■□□□□]"}']}}}] run tag @s add flbc.h1
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■□□□]"}']}}}] run tag @s add flbc.h2
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■□□]"}']}}}] run tag @s add flbc.h3
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■■□]"}']}}}] run tag @s add flbc.h4
+#execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■□□□□]"}']}}}] run tag @s add flbc.h1
+#execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■□□□]"}']}}}] run tag @s add flbc.h2
+#execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■□□]"}']}}}] run tag @s add flbc.h3
+
+
+execute if data entity @s Inventory[{"Slot":-106b,tag:{display:{Lore:['{"italic":false,"color":"dark_purple","extra":[{"color":"yellow","text":"■"},{"color":"dark_gray","text":"□□□□"},{"color":"dark_purple","text":"] "}],"text":"Charge: ["}']}}}] run tag @s add flbc.h1
+execute if data entity @s Inventory[{"Slot":-106b,tag:{display:{Lore:['{"italic":false,"color":"dark_purple","extra":[{"color":"yellow","text":"■■"},{"color":"dark_gray","text":"□□□"},{"color":"dark_purple","text":"] "}],"text":"Charge: ["}']}}}] run tag @s add flbc.h2
+execute if data entity @s Inventory[{"Slot":-106b,tag:{display:{Lore:['{"italic":false,"color":"dark_purple","extra":[{"color":"yellow","text":"■■■"},{"color":"dark_gray","text":"□□"},{"color":"dark_purple","text":"] "}],"text":"Charge: ["}']}}}] run tag @s add flbc.h3
+execute if data entity @s Inventory[{"Slot":-106b,tag:{display:{Lore:['{"italic":false,"color":"dark_purple","extra":[{"color":"yellow","text":"■■■■"},{"color":"dark_gray","text":"□"},{"color":"dark_purple","text":"] "}],"text":"Charge: ["}']}}}] run tag @s add flbc.h4
+execute if data entity @s Inventory[{"Slot":-106b,tag:{display:{Lore:['{"italic":false,"color":"dark_purple","extra":[{"color":"yellow","text":"■■■■■"},{"color":"dark_gray","text":""},{"color":"dark_purple","text":"] "}],"text":"Charge: ["}']}}}] run tag @s add flbc.h5
+
+#execute if data entity @s SelectedItem.tag.display{Lore:['{"italic":false,"color":"dark_purple","extra":[{"color":"yellow","text":"■■■■"},{"color":"dark_gray","text":"□"},{"color":"dark_purple","text":"] "}],"text":"Charge: ["}']}
+
 execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■■■]"}']}}}] run tag @s add flbc.h5
 
 execute if entity @s[tag=flbc.h1] run title @s actionbar ["",{"text":"Flashlight","color":"aqua"},{"text":" - ","color":"dark_gray"},{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■","color":"yellow"},{"text":"□□□□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]
