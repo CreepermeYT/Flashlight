@@ -1,4 +1,5 @@
 execute anchored eyes positioned ^ ^ ^ run function flashlight_by_creepermeyt:utils/get_dist
+
 execute if entity @s[tag=flbc.oon] run function flashlight_by_creepermeyt:item/damage_offhand
 execute if entity @s[tag=flbc.mon,tag=!flbc.oon] run function flashlight_by_creepermeyt:item/damage_mainhand
 
@@ -15,8 +16,8 @@ execute if entity @s[tag=flbc.h1,tag=flbc.flicker] run scoreboard players set -m
 execute if entity @s[tag=flbc.h1,tag=!flbc.flicker] run scoreboard players set -min flbc 7
 execute if entity @s[tag=flbc.h1,tag=!flbc.flicker] run scoreboard players set -max flbc 12
 
+execute anchored eyes positioned ~ ~1 ~ facing entity @e[tag=flbc.target,limit=1] eyes run function flashlight_by_creepermeyt:utils/gen_line
+
 tag @s remove flbc.flicker
-
-
-execute anchored eyes positioned ~ ~1 ~ run function flashlight_by_creepermeyt:utils/gen_line
 tag @s remove flbc.h1
+kill @e[tag=flbc.target]
