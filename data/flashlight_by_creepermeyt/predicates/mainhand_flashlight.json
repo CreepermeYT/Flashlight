@@ -8,7 +8,7 @@
           "minecraft:spyglass"
         ],
         "enchantments": [],
-        "nbt": "{Enchantments:[{}],CustomModelData:2}"
+        "nbt": "{Enchantments:[{}]}"
       }
     }
   }

@@ -1,2 +1,1 @@
-scoreboard objectives add flbc dummy
-scoreboard objectives setdisplay sidebar flbc
+scoreboard objectives add flbc minecraft.used:minecraft.spyglass
