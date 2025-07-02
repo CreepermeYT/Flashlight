@@ -4,7 +4,8 @@ tag @e[predicate=flashlight_by_creepermeyt:offhand_flashlight_on] add flbc.oon
 tag @e[predicate=flashlight_by_creepermeyt:mainhand_flashlight_on] add flbc.mon
 tag @e[predicate=flashlight_by_creepermeyt:mainhand_flashlight_off] add flbc.moff
 
-execute as @e[predicate=flashlight_by_creepermeyt:offhand_flashlight_on] at @s run function flashlight_by_creepermeyt:flashlight 
+execute as @e[tag=flbc.oon] at @s run function flashlight_by_creepermeyt:flashlight 
+execute as @e[tag=flbc.mon,tag=!flbc.oon] at @s run function flashlight_by_creepermeyt:flashlight 
 
 tag @e[tag=flbc.oon] remove flbc.oon
 tag @e[tag=flbc.mon] remove flbc.mon
