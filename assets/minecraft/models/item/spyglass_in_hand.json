@@ -48,5 +48,19 @@
             "translation": [0, 0, -1.5],
             "scale": [1.5, 1.5, 1.5]
         }
+    },
+    "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "flashlight_by_creepermeyt:item/flashlight_on_in_hand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "flashlight_by_creepermeyt:item/flashlight_off_in_hand"
     }
+  ]
 }

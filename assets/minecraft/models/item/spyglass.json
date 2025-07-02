@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/spyglass"
+  },
+    "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "flashlight_by_creepermeyt:item/flashlight_on"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "flashlight_by_creepermeyt:item/flashlight_off"
+    }
+  ]
+}

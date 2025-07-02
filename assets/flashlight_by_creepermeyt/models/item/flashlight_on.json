@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flashlights_bycreepermeyt:item/flashlight_off"
+    "layer0": "flashlight_by_creepermeyt:item/flashlight_on"
   }
 }

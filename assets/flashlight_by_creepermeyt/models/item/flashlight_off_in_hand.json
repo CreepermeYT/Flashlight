@@ -2,8 +2,8 @@
 	"credit": "Made by CreepermYT, Obviously NOT using Blockbench .-.",
 	"parent": "spyglass",
 	"textures": {
-		"0": "flashlights_bycreepermeyt:item/flashlight_model",
-		"particle": "flashlights_bycreepermeyt:item/flashlight_model"
+		"0": "flashlight_by_creepermeyt:item/flashlight_model",
+		"particle": "flashlight_by_creepermeyt:item/flashlight_model"
 	},
 	"elements": [
 		{
