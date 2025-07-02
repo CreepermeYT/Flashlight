@@ -1,8 +1,8 @@
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['[{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■","color":"yellow"},{"text":"□□□□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]']}}}] run tag @s add flbc.h1
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['[{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■■","color":"yellow"},{"text":"□□□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]']}}}] run tag @s add flbc.h2
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['[{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■■■","color":"yellow"},{"text":"□□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]']}}}] run tag @s add flbc.h3
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['[{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■■■■","color":"yellow"},{"text":"□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]']}}}] run tag @s add flbc.h4
-execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['[{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■■■■■","color":"yellow"},{"text":"","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]']}}}] run tag @s add flbc.h5
+execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■□□□□]"}']}}}] run tag @s add flbc.h1
+execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■□□□]"}']}}}] run tag @s add flbc.h2
+execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■□□]"}']}}}] run tag @s add flbc.h3
+execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■■□]"}']}}}] run tag @s add flbc.h4
+execute if data entity @s Inventory[{Slot:-106b,tag:{display:{Lore:['{"italic":false,"text":"Charge: [■■■■■]"}']}}}] run tag @s add flbc.h5
 
 execute if entity @s[tag=flbc.h1] run title @s actionbar ["",{"text":"Flashlight","color":"aqua"},{"text":" - ","color":"dark_gray"},{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■","color":"yellow"},{"text":"□□□□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]
 execute if entity @s[tag=flbc.h2] run title @s actionbar ["",{"text":"Flashlight","color":"aqua"},{"text":" - ","color":"dark_gray"},{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■■","color":"yellow"},{"text":"□□□","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]
@@ -24,6 +24,7 @@ execute if entity @s[tag=!flbc.damage] run tag @s remove flbc.h4
 execute if entity @s[tag=!flbc.damage] run tag @s remove flbc.h5
 execute if entity @s[tag=!flbc.damage] run return 0
 
+say hi1
 execute if entity @s[tag=flbc.h1] run playsound minecraft:entity.item.break block @a[distance=..7] ~ ~ ~ 1 1.1
 execute if entity @s[tag=flbc.h1] run item replace entity @s weapon.offhand with air
 execute if entity @s[tag=flbc.h1] run title @s actionbar ["",{"text":"Flashlight","color":"red"},{"text":" - ","color":"dark_gray"},{"text":"Charge: [","color":"dark_red"},{"text":"","color":"yellow"},{"text":"□□□□□","color":"dark_red"},{"text":"] ","color":"dark_red"}]

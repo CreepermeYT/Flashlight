@@ -1,1 +1,1 @@
-give @s spyglass{display:{Name:'["",{"text":"Flashlight","italic":false}]',Lore:['[{"text":"Charge: [","color":"dark_purple","italic":false},{"text":"■■■■■","color":"yellow"},{"text":"","color":"dark_gray"},{"text":"] ","color":"dark_purple"}]']},Enchantments:[{}],CustomModelData:1}
+give @s spyglass{display:{Name:'["",{"text":"Flashlight","italic":false}]',Lore:['{"italic":false,"text":"Charge: [■■■■■]"}']},Enchantments:[{}],CustomModelData:1}
