@@ -1,1 +1,2 @@
 scoreboard objectives add flbc minecraft.used:minecraft.spyglass
+tellraw @a [{"text":"-> ","bold":true},{"text":"LOADED","color":"green"},{"text":": ","color":"gray"},"","","",{"text":" < "},{"text":"Flashlight","color":"yellow"},{"text":" By ","color":"gray","bold":false},"CreepermeYT >",{"text":" v1.2-mc1.20.1","color":"dark_gray","bold":false}]
