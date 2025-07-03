@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "spyglass_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_crafted"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flashlight_by_creepermeyt:flashlight_recipe"
+    ]
+  }
+}

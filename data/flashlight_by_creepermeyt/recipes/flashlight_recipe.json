@@ -18,6 +18,7 @@
     }
   },
   "result": {
-    "item": "minecraft:spyglass"
+    "item": "minecraft:knowledge_book",
+    "count": 1
   }
 }
